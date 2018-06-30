@@ -1,0 +1,151 @@
+body {
+    background: rgb(90, 90, 90)
+}
+
+#title-bar {
+    /* width: 100%; */
+    /* background: rgb(15, 160, 180); */
+    background: rgb(50, 216, 238);
+    color: crimson;
+    /* border: 5px solid rgb(50, 216, 238); */
+    /* border: 7px solid rgb(15, 160, 180); */
+    border: 7px solid rgb(253, 192, 24);
+    text-align: center;
+    padding: 5px;
+}
+
+#title{
+    /* bubble letters/block letters */
+    /* font-family: 'Bungee Shade', cursive; */
+
+    /* large hand-written */
+    /* font-family: 'Mogra', cursive; */
+
+    /* old-timey western saloom */
+    /* font-family: 'Ewert', cursive; */
+
+    /* large hand-written slightly graffiti-esque sharpie look */
+    /* font-family: 'Fruktur', cursive; */
+
+    /* 4 parallel lines '80s arcade */
+    font-family: 'Monoton', cursive;
+
+    /* jersey style */
+    /* font-family: 'Black Ops One', cursive; */
+}
+
+#subtitle {
+    /* large hand-written */
+    font-family: 'Mogra', cursive;
+}
+
+.jumbotron {
+    margin-top: 20
+}
+
+#player1 {
+    background: rgb(50, 216, 238);
+}
+
+#header1 {
+    background:  rgb(15, 160, 180);
+    width: 100%;
+}
+
+.buttons1 {
+    background: rgb(15, 160, 180); 
+    color: white;
+    font-size: 20px;
+}
+
+#header2 {
+    background: crimson;
+}
+
+#player2 {
+    background: rgb(248, 85, 112);
+}
+
+#headerR {
+    background: rgb(253, 192, 24);
+}
+
+.buttons2 {
+    background: crimson;
+    color: white;
+    font-size: 20px;
+}
+
+#results {
+    background: rgb(90, 90, 90);
+    color: white;
+    
+}
+
+#headerR {
+    color: rgb(90, 90, 90);
+}
+
+#again {
+    background: rgb(253, 192, 24);
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+
+.card {
+    width: 30%;
+    margin: auto;
+    align-content: center;
+}
+
+.card-header{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+}
+
+.card-body {
+    font-family: 'Mogra', cursive;
+    font-size: 20px;
+}
+
+.chosen {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#chat-box {
+    height: 300px;
+    background: white;
+    border: 3px solid rgb(90, 90, 90);
+    width: 90%;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.chat{
+    margin: auto;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+}
+
+#textlabel {
+    margin-top: 10px;
+}
+
+#text {
+    font-family: 'Mogra', cursive;
+    font-size: 20px;
+}
+
+#text-button {
+    color: white;
+    background: rgb(90, 90, 90)
+}
+
+#results{
+    display: none;
+}
